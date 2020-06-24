@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Vollkorn', serif;
+  
+}
+.form-control {
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #dad2d2;
+  font-size: 1.1rem;
+  font-weight: 500;
+  box-shadow: none;
+  background: transparent;
+  padding:0 ;
+}
+h2{
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color:#e61ccd;
+}
+
+i.fa {
+  float: right;
+  position: absolute;
+  display: none;
+
+}
+#success{
+  float: right;
+  top:1.8rem;
+  position: relative;
+  color:#008000;
+
+}
+#error{
+  float: right;
+  top:1.8rem;
+  position: relative;
+  color:#FF0000;
+}
+
+#success1{
+  float: right;
+  top:1.8rem;
+  position: relative;
+  color:#008000;
+
+}
+#error1{
+  float: right;
+  top:1.8rem;
+  position: relative;
+  color:#FF0000; 
+}
+
+#err1{
+  display: none;
+}
+#err2{
+  display: none;
+}
+.btn1:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  border:0;
+  background: linear-gradient(to bottom, #e61ccd 0%, #ff99cc 100%);
+  padding: 5px 70px;
+  border-radius: 40px;
+}
+.mybtn{
+  margin-left:9%;
+  background-color: transparent;
+}
+label {
+  font-weight: 100;
+  font-size: 1.1rem;
+  margin-bottom: initial;
+}
+
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -2rem;
+  position: relative;
+  color:#000;
+  font-size: 1.2rem;
+ }
+.cover img{
+    width: 100%;
+    height:95vh;
+    opacity:.8;
+}
+
+
+@media (min-width: 1200px) {
+ 
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+ 
+}
+
+@media (max-width: 768px) {
+  h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  .cover{
+    display: none;
+  }
+  .btn1:not(:disabled):not(.disabled){
+    padding: 6px 40px;
+  }
+  .mybtn{
+    margin-left:20%;
+  }
+
+}
